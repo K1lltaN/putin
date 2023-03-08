@@ -1,0 +1,15 @@
+body {
+    background-color: blue;
+}
+
+h1 {
+    color:yellow;
+    text-align: center;
+    margin-top: 200px;
+    font-size: 350px;
+}
+
+h1:hover {
+    color: blue;
+    content: 'Хуйло';
+}
