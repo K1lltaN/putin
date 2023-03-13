@@ -9,6 +9,8 @@
 </head>
 <body>
     <h1>Путин</h1>
+    <h3>клацни тут</h3>
+    <h3 class="strlochka">-------------</h3>
     <script>
         document.querySelector('h1').onmousemove = function() {
             document.body.style.backgroundColor = 'yellow';
@@ -17,6 +19,7 @@
         document.querySelector('h1').onmouseleave = function() {
             document.body.style.backgroundColor = 'blue';
             document.querySelector('h1').innerHTML = "Путин";
+            document.querySelector('h3').style.color = 'yellow';
         }
     </script>
 </body>
